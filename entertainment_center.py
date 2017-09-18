@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Blade Runner movie: title, storyline, poster image and trailer
 blade_runner = media.Movie(
     "Blade Runner",
     ("TA blade runner must pursue and try to terminate four replicants "
@@ -10,8 +11,8 @@ blade_runner = media.Movie(
      "00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR"
      "0,0,182,268_AL_.jpg"),
     "https://www.youtube.com/watch?v=eogpIG53Cis")
-# print(blade_runner.storyline)
 
+# Willow movie: title, storyline, poster image and trailer
 willow = media.Movie(
     "Willow",
     ("Willow follows a reluctant dwarf must play a critical role in "
@@ -20,9 +21,8 @@ willow = media.Movie(
      "00OTY0LWFmZTItN2NkOWQ0MGQ5NDkyL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_"
      "UX182_CR0,0,182,268_AL_.jpg"),
     "https://www.youtube.com/watch?v=uzn2izehkno")
-# print(willow.storyline)
-# willow.show_trailer()
 
+# There Will Be Blood movie: title, storyline, poster image and trailer
 there_will_be_blood = media.Movie(
     "There Will Be Blood",
     ("There Will Be Blood is a story of family, religion, hatred, oil and "
@@ -32,6 +32,7 @@ there_will_be_blood = media.Movie(
      "BanBnXkFtZTcwMDU4MjU1MQ@@._V1_.jpg"),
     "https://www.youtube.com/watch?v=0FIm5ATyAY0")
 
+# The Grand Butapest Hotel movie: title, storyline, poster image and trailer
 the_grand_butapest_hotel = media.Movie(
     "The Grand Butapest Hotel",
     ("The Grand Butapest Hotel is a film about the adventures of Gustave H, a "
@@ -42,6 +43,7 @@ the_grand_butapest_hotel = media.Movie(
      "BanBnXkFtZTgwNjEyMDM0MDE@._V1_SY1000_SX675_AL_.jpg"),
     "https://www.youtube.com/watch?v=zru-1DbbcsA")
 
+# Terminator movie: title, storyline, poster image and trailer
 terminator = media.Movie(
     "Terminator",
     ("Terminator is a humanoid cyborg is sent from 2029 to 1984 to "
@@ -51,6 +53,7 @@ terminator = media.Movie(
      "l5BanBnXkFtZTcwMTA0NDQyNA@@._V1_UX182_CR0,0,182,268_AL_.jpg"),
     "https://www.youtube.com/watch?v=c4Jo8QoOTQ4")
 
+# Hot Tub Time Machine movie: title, storyline, poster image and trailer
 hot_tub_time_machine = media.Movie(
     "Hot Tub Time Machine",
     ("Hot Tub Time Machine is a film about a malfunctioning time machine at "
